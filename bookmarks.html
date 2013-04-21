@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="utf-8">
+    <title>Project45 - Bookmarks</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/jquery-ui-1.8.16.custom.css" media="screen"  />
+    <link rel="stylesheet" href="css/fullcalendar.css" media="screen"  />
+    <link rel="stylesheet" href="css/chosen.css" media="screen"  />
+    <link rel="stylesheet" href="css/glisse.css?1.css">
+    <link rel="stylesheet" href="css/jquery.jgrowl.css">
+    <link rel="stylesheet" href="css/demo_table.css" >
+    <link rel="stylesheet" href="css/jquery.fancybox.css?v=2.1.4" media="screen" />
+    
+	  <link rel="stylesheet" href="css/icon/font-awesome.css">    
+    <link rel="stylesheet" href="css/bootstrap-responsive.css">
+    
+    <link rel="alternate stylesheet" type="text/css" media="screen" title="green-theme" href="css/color/green.css" />
+	  <link rel="alternate stylesheet" type="text/css" media="screen" title="red-theme" href="css/color/red.css" />
+	  <link rel="alternate stylesheet" type="text/css" media="screen" title="blue-theme" href="css/color/blue.css" />
+    <link rel="alternate stylesheet" type="text/css" media="screen" title="orange-theme" href="css/color/orange.css" />
+    <link rel="alternate stylesheet" type="text/css" media="screen" title="purple-theme" href="css/color/purple.css" />
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <script language="JavaScript">
+	Firefox = navigator.userAgent.indexOf("Firefox") >= 0;
+	if(Firefox) document.write("<link rel='stylesheet' href='css/moz.css' type='text/css'>"); 
+	</script>
+    
+    <!-- Le fav and touch icons -->
+    <link rel="shortcut icon" href="favicon.ico">
+    
+  </head>
+
+  <body>
+    <!--BEGIN HEADER-->
+    <div id="header" role="banner">
+    
+      
+    </div>
+    <!--END HEADER-->
+    
+    <div id="wrap">
+    
+    
+    	<!--BEGIN SIDEBAR-->
+        <div id="menu" role="navigation">
+        
+          <ul class="main-menu">
+
+          </ul>
+          
+
+          
+                    <!--New Files-->
+          <div class="new-files">
+             <div class="title">New Files</div>
+             
+             <div class="files">
+               <div class="file">
+                  <div class="file-format"><img src="images/icon/file_pdf.png" alt=""></div>
+                  <div class="file-info">
+                    <div class="file-name">Mani_CV.pdf <a href="#"><i class="icon-remove"></i></a></div>
+                    <div class="file-date">January 30, 2013</div>
+                  </div>
+                </div>
+                <div class="file">
+                  <div class="file-format"><img src="images/icon/file_doc.png" alt=""></div>
+                  <div class="file-info">
+                    <div class="file-name">Mani_CV.doc <a href="#"><i class="icon-remove"></i></a></div>
+                    <div class="file-date">January 30, 2013</div>
+                  </div>
+                </div>
+                <div class="file">
+                  <div class="file-format"><img src="images/icon/file_jpg.png" alt=""></div>
+                  <div class="file-info">
+                    <div class="file-name">Mani_CV.jpg <a href="#"><i class="icon-remove"></i></a></div>
+                    <div class="file-date">January 30, 2013</div>
+                  </div>
+                </div>
+                <div class="file">
+                  <div class="file-format"><img src="images/icon/file_xls.png" alt=""></div>
+                  <div class="file-info">
+                    <div class="file-name">Mani_CV.xls <a href="#"><i class="icon-remove"></i></a></div>
+                    <div class="file-date">January 30, 2013</div>
+                  </div>
+                </div>
+                <div class="file">
+                  <div class="file-format"><img src="images/icon/file_zip.png" alt=""></div>
+                  <div class="file-info">
+                    <div class="file-name">Mani_CV.zip <a href="#"><i class="icon-remove"></i></a></div>
+                    <div class="file-date">January 30, 2013</div>
+                  </div>
+                </div>
+                <div class="file">
+                  <div class="file-format"><img src="images/icon/file_txt.png" alt=""></div>
+                  <div class="file-info">
+                    <div class="file-name">Mani_CV.txt <a href="#"><i class="icon-remove"></i></a></div>
+                    <div class="file-date">January 30, 2013</div>
+                  </div>
+                </div>
+               
+             </div>
+          </div>
+          <!--New Files END-->
+          
+          <!--Upload Box-->
+          <div class="upload-box">Drop files <br> here to upload</div>
+          <!--Upload Box END-->
+          
+          <!--Media Files-->
+          <div class="media-files">
+             <div class="title">Media Files</div>
+             <p>This is Photoshop's version  of Lorem Ipsum.</p>
+             
+             <div class="media-files-info-box">
+                <i class="icon-picture"></i> Photo <strong>35%</strong>
+                <div class="process-progress"> <div class="advance red" style="width:35%"></div> </div> 
+             </div>
+             <div class="media-files-info-box">
+                <i class="icon-facetime-video"></i> Video <strong>43%</strong>
+                <div class="process-progress"> <div class="advance blue" style="width:43%"></div> </div> 
+             </div>
+             <div class="media-files-info-box">
+                <i class="icon-music"></i> Audio <strong>23%</strong>
+                <div class="process-progress"> <div class="advance green" style="width:23%"></div> </div>
+             </div>
+          </div>
+          <!--Media Files END-->
+          
+          <!--Add New Widget-->
+          <a href="#" class="add-widget-link">Add New Widget</a>
+          <!--Add New Widget END-->
+          
+          <div class="clearfix"></div>
+          
+          
+        </div>
+        <!--SIDEBAR END-->
+    
+    	
+        <!--BEGIN MAIN CONTENT-->
+        <div id="main" role="main">
+          <div class="block">
+   		  <div class="clearfix"></div>
+            
+             <!--page title-->
+             <div class="pagetitle">
+                <h1>Dashboard.</h1> 
+                <div class="clearfix"></div>
+             </div>
+             <!--page title end-->
+             
+              <!--Process Box-->
+              <div class="process-box">
+              <div class="row-fluid">
+              
+                <div class="span3 process-name">
+                 <i class="icon-upload-alt"></i> Bookmarks
+                </div>
+                <div class="span6 info">
+                  This page allows you to setup bookmarks to diffrent pages within your own pdf.
+                  <div class="process-progress hide"> <div class="advance blue" style="width:46%"></div> </div> 
+                </div>
+                <div class="span3">
+                 <a href="#" class="process-action blue">Cancel</a>
+                </div>
+               
+               </div>
+               <div class="clearfix"></div>
+               </div>
+               <!--Process Box END-->
+
+
+
+             
+             <!--quick stats box-->
+             <div class="grid-transparent row-fluid quick-stats-box">
+               <div class="span3">
+             	    <span>21</span> BOOKMARKS
+               </div>
+               <div class="span3 red">
+                 	<span>11</span> COMMENTS
+               </div>
+               <div class="span3 orange">
+              		<span>28</span> CLICKS
+               </div>
+               <div class="span3 green">
+               		<span>51</span> FOLLOWERS
+               </div>  
+             </div>
+             <div class="clearfix"></div>
+             <!--quick stats box END-->
+             
+             
+              <div class="row-fluid">    
+
+              <!--Twitter Widget-->
+              <div class="grid span6">
+              
+              <div class="grid-title">
+               <div class="pull-left">
+                  <div class="icon-title"><i class="icon-comments"></i></div>
+                  <span>Comments and Discussions</span> 
+                  <div class="clearfix"></div>
+               </div>
+               <div class="pull-right"> 
+                  <div class="icon-title"><a href="#"><i class="icon-refresh"></i></a></div>
+                  <div class="icon-title"><a href="#"><i class="icon-cog"></i></a></div>
+               </div>
+              <div class="clearfix"></div>   
+              </div>
+            
+              <div class="grid-content overflow">
+                <div class="friends">
+                
+                 <div class="friend">
+                  <img src="images/avatar-14.png" alt="" class="f-avatar">
+                  <div class="f-info">
+                    <div class="f-name">Maykel Loomans</div>
+                    <div class="f-text">Cras sit amet nibh libero, in gravida nulla.</div>
+                  </div>
+                  <div class="t-foot">
+                      <div class="t-date">23 hour ago.</div>
+                      <div class="t-retweet"><a href="#"><i class="icon-share-alt"></i></a></div>
+                    </div>
+                  <div class="clearfix"></div>
+                  </div>
+                  
+                  <div class="friend">
+                  <img src="images/avatar-13.png" alt="" class="f-avatar">
+                  <div class="f-info">
+                    <div class="f-name">Bobby Giangeruso</div>
+                    <div class="f-text">Cras sit amet nibh libero, in gravida nulla.</div>
+                  </div>
+                  <div class="t-foot">
+                      <div class="t-date">23 hour ago.</div>
+                      <div class="t-retweet"><a href="#"><i class="icon-share-alt"></i></a></div>
+                    </div>
+                  <div class="clearfix"></div>
+                  </div>
+                  
+                  <div class="friend">
+                  <img src="images/avatar-12.png" alt="" class="f-avatar">
+                  <div class="f-info">
+                    <div class="f-name">Simon Gustavsson</div>
+                    <div class="f-text">Cras sit amet nibh libero, in gravida nulla.</div>
+                  </div>
+                  <div class="t-foot">
+                      <div class="t-date">23 hour ago.</div>
+                      <div class="t-retweet"><a href="#"><i class="icon-share-alt"></i></a></div>
+                    </div>
+                  <div class="clearfix"></div>
+                  </div>
+                  
+                 </div>
+              </div>
+              
+              </div>
+              <!--Twitter Widget END-->
+
+
+              <!--bookmark edit panel-->
+              <div class="grid span6">
+              
+              <div class="grid-title">
+               <div class="pull-left">
+                  <div class="icon-title"><i class="icon-user"></i></div>
+                  <span>Bookmarks</span> 
+                  <div class="clearfix"></div>
+               </div>
+               <div class="pull-right"> 
+               	  <div class="icon-title"><a href="#"><i class="icon-refresh"></i></a></div>
+                  <div class="icon-title"><a href="#"><i class="icon-cog"></i></a></div>
+               </div>
+              <div class="clearfix"></div>   
+              </div>
+            
+              <div class="grid-content overflow">
+                <div class="friends">
+                 <div class="friend">
+                  <img src="images/avatar-11.png" alt="" class="f-avatar">
+                  <div class="f-actions">
+                 	<a href="#">Edit</a>
+                  </div>
+                  <div class="f-info">
+                  	<div class="f-name">Cover</div>
+                    <div class="f-text">Page: 0</div>
+                  </div>
+                  <div class="clearfix"></div>
+                  </div>
+                  
+                  <div class="friend">
+                  <img src="images/avatar-10.png" alt="" class="f-avatar">
+                  <div class="f-actions">
+                 	<a href="#">Edit</a>
+                  </div>
+
+                  <div class="f-info">
+                  	<div class="f-name">Table of Contents</div>
+                    <div class="f-text">Page: 4</div>
+                  </div>
+                  <div class="clearfix"></div>
+                  </div>
+                  
+                  <div class="friend">
+                  <img src="images/avatar-9.png" alt="" class="f-avatar">
+                  <div class="f-actions">
+                 	<a href="#">Edit</a>
+                  </div>
+                  <div class="f-info">
+                  	<div class="f-name">Showcase</div>
+                    <div class="f-text">Page: 17</div>
+                  </div>
+                  <div class="clearfix"></div>
+                  </div>
+                  
+                  <div class="friend">
+                  <img src="images/avatar-8.png" alt="" class="f-avatar">
+                  <div class="f-actions">
+                 	<a href="#">Edit</a>
+                  </div>
+                  <div class="f-info">
+                  	<div class="f-name">Storm Chasing</div>
+                    <div class="f-text">Page: 23</div>
+                  </div>
+                  <div class="clearfix"></div>
+                  </div>
+
+                  <div class="friend">
+                  <img src="images/avatar-8.png" alt="" class="f-avatar">
+                  <div class="f-actions">
+                  <a href="#">Save</a>
+                  </div>
+                  <div class="f-info">
+                    <div class="control-group span5">
+                      <label class="control-label" for="inputWarning">Edit </label>
+                      <div class="controls">
+                        <input type="text" id="inputWarning" value="Happy Clients">
+                        <span class="help-inline hide">Something may have gone wrong</span>
+                      </div>
+                   </div>
+                    <div class="control-group span4">
+                    <label class="control-label" for="prependedInput">Page #</label>
+                    <div class="controls">
+                      <div class="input-prepend">
+                        <span class="add-on">@</span><input class="span7" id="prependedInput" size="16" type="text" value="32">
+                      </div>
+                    </div>
+                  </div>
+                  </div>
+                  <div class="clearfix"></div>
+                  </div>                  
+                
+               </div>
+              <div class="clearfix"></div>
+              </div>
+              
+              </div>
+              <!--bookmark edit panel END-->
+
+              </div>
+              
+
+              
+              <!--Process Box-->
+              <div class="process-box">
+              <div class="row-fluid">
+              
+                <div class="span3 process-name">
+                 <i class="icon-upload-alt"></i> External Bookmarks
+                </div>
+                <div class="span6 info">
+                  This section allows you to setup bookmarks to diffrent pdf'sa dn external resources.
+                  <div class="process-progress hide"> <div class="advance blue" style="width:46%"></div> </div> 
+                </div>
+                <div class="span3">
+                 <a href="#" class="process-action blue">Cancel</a>
+                </div>
+               
+               </div>
+               <div class="clearfix"></div>
+               </div>
+               <!--Process Box END-->
+
+              <!--Informatin BOX 3-->
+              <div class="information-box-3">
+                    <div class="item">
+                      <div class="box-info">
+                        <img src="images/icon/stats_1.png" alt=""> 
+                        <div class="box-figures">345.23K</div>
+                        <div class="box-title">1 256, 00 $</div>
+                      </div>
+                    </div>
+                    <div class="item">
+                        <div class="box-info">
+                        <img src="images/icon/stats_2.png" alt=""> 
+                        <div class="box-figures">345.23K</div>
+                        <div class="box-title">1 256, 00 $</div>
+                      </div>
+                    </div>
+                    <div class="item">
+                      <div class="box-info">
+                        <img src="images/icon/stats_3.png" alt=""> 
+                        <div class="box-figures">345.23K</div>
+                        <div class="box-title">1 256, 00 $</div>
+                      </div>
+                    </div>
+              </div>
+              <!--Informatin BOX 3 END-->
+
+
+
+              <div class="row-fluid">    
+              <!--bookmark edit panel-->
+              <div class="grid span6">
+              
+              <div class="grid-title">
+               <div class="pull-left">
+                  <div class="icon-title"><i class="icon-user"></i></div>
+                  <span>External Links View #1</span> 
+                  <div class="clearfix"></div>
+               </div>
+               <div class="pull-right"> 
+                  <div class="icon-title"><a href="#"><i class="icon-refresh"></i></a></div>
+                  <div class="icon-title"><a href="#"><i class="icon-cog"></i></a></div>
+               </div>
+              <div class="clearfix"></div>   
+              </div>
+            
+              <div class="grid-content overflow">
+                <div class="friends">
+                 <div class="friend">
+                  <img src="images/avatar-11.png" alt="" class="f-avatar">
+                  <div class="f-actions">
+                  <a href="#">Edit</a>
+                  </div>
+                  <div class="f-info">
+                    <div class="f-name">Cover</div>
+                    <div class="f-text">Page: 0</div>
+                  </div>
+                  <div class="clearfix"></div>
+                  </div>
+                  
+                  <div class="friend">
+                  <img src="images/avatar-10.png" alt="" class="f-avatar">
+                  <div class="f-actions">
+                  <a href="#">Edit</a>
+                  </div>
+
+                  <div class="f-info">
+                    <div class="f-name">Table of Contents</div>
+                    <div class="f-text">Page: 4</div>
+                  </div>
+                  <div class="clearfix"></div>
+                  </div>
+               
+
+                  <div class="friend">
+                  <img src="images/avatar-8.png" alt="" class="f-avatar">
+                  <div class="f-actions">
+                  <a href="#">Save</a>
+                  </div>
+                  <div class="f-info">
+                    <div class="control-group span5">
+                      <label class="control-label" for="inputWarning">Edit </label>
+                      <div class="controls">
+                        <input type="text" id="inputWarning" value="Happy Clients">
+                        <span class="help-inline hide">Something may have gone wrong</span>
+                      </div>
+                   </div>
+                    <div class="control-group span4">
+                    <label class="control-label" for="prependedInput">Page #</label>
+                    <div class="controls">
+                      <div class="input-prepend">
+                        <span class="add-on">@</span><input class="span7" id="prependedInput" size="16" type="text" value="32">
+                      </div>
+                    </div>
+                  </div>
+                  </div>
+                  <div class="clearfix"></div>
+                  </div>                  
+                
+               </div>
+              <div class="clearfix"></div>
+              </div>
+              
+              </div>
+              <!--bookmark edit panel END-->
+
+
+
+              <!--Example Table-->
+              <div class="grid span6">
+              
+              <div class="grid-title">
+               <div class="pull-left">
+                  <div class="icon-title"><i class="icon-eye-open"></i></div>
+                  <span>External Links View #2</span> 
+                  <div class="clearfix"></div>
+               </div>
+               <div class="pull-right"> 
+                  <div class="icon-title"><a href="#"><i class="icon-refresh"></i></a></div>
+                  <div class="icon-title"><a href="#"><i class="icon-cog"></i></a></div>
+               </div>
+              <div class="clearfix"></div>   
+              </div>
+            
+              <div class="grid-content overflow">
+                
+            <table class="table table-bordered table-mod-2" id="datatable_3">
+            <thead>
+              <tr>
+                <th class="t_center"><input type="checkbox" id="c1" name="cc" /><label for="c1"><span></span></label></th>
+                <th>Link Name</th>
+                <th class="hidden-mobile">Link URL</th>
+                <th class="hidden-mobile">Status</th>
+                <th>Actions</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="t_center"><input type="checkbox" id="c2" name="cc" /><label for="c2"><span></span></label></td>
+                <td>coop</td>
+                <td class="hidden-mobile"><a href="#">good@gmail.com</a></td>
+                <td class="hidden-mobile"><span class="s_green">Approved</span></td>
+                <td class="action-table"><a href="#"><img src="images/icon/table_view.png" alt=""></a> <a href="#"><img src="images/icon/table_edit.png" alt=""></a> <a href="#"><img src="images/icon/table_del.png" alt=""></a></td>
+              </tr>
+              <tr>
+                <td class="t_center"><input type="checkbox" id="c3" name="cc" /><label for="c3"><span></span></label></td>
+                <td>coop</td>
+                <td class="hidden-mobile"><a href="#">good@gmail.com</a></td>
+                <td class="hidden-mobile"><span class="s_green">Approved</span></td>
+                <td class="action-table"><a href="#"><img src="images/icon/table_view.png" alt=""></a> <a href="#"><img src="images/icon/table_edit.png" alt=""></a> <a href="#"><img src="images/icon/table_del.png" alt=""></a></td>
+              </tr>
+              <tr>
+                <td class="t_center"><input type="checkbox" id="c4" name="cc" /><label for="c4"><span></span></label></td>
+                <td>user1wow</td>
+                <td class="hidden-mobile"><a href="#">test@gmail.com</a></td>
+                <td class="hidden-mobile"><span class="s_blue">Pending</span></td>
+                <td class="action-table"><a href="#"><img src="images/icon/table_view.png" alt=""></a> <a href="#"><img src="images/icon/table_edit.png" alt=""></a> <a href="#"><img src="images/icon/table_del.png" alt=""></a></td>
+              </tr>
+              <tr>
+                <td class="t_center"><input type="checkbox" id="c5" name="cc" /><label for="c5"><span></span></label></td>
+                <td>userwow</td>
+                <td class="hidden-mobile"><a href="#">userwow@yahoo.com</a></td>
+                <td class="hidden-mobile"><span class="s_orange">Broken</span></td>
+                <td class="action-table"><a href="#"><img src="images/icon/table_view.png" alt=""></a> <a href="#"><img src="images/icon/table_edit.png" alt=""></a> <a href="#"><img src="images/icon/table_del.png" alt=""></a></td>
+              </tr>
+              <tr>
+                <td class="t_center"><input type="checkbox" id="c6" name="cc" /><label for="c6"><span></span></label></td>
+                <td>looper</td>
+                <td class="hidden-mobile"><a href="#">looper90@gmail.com</a></td>
+                <td class="hidden-mobile"><span class="s_gray">Inactive</span></td>
+                <td class="action-table"><a href="#"><img src="images/icon/table_view.png" alt=""></a> <a href="#"><img src="images/icon/table_edit.png" alt=""></a> <a href="#"><img src="images/icon/table_del.png" alt=""></a></td>
+              </tr>
+              <tr>
+                <td class="t_center"><input type="checkbox" id="c7" name="cc" /><label for="c7"><span></span></label></td>
+                <td>coop</td>
+                <td class="hidden-mobile"><a href="#">good@gmail.com</a></td>
+                <td class="hidden-mobile"><span class="s_green">Approved</span></td>
+                <td class="action-table"><a href="#"><img src="images/icon/table_view.png" alt=""></a> <a href="#"><img src="images/icon/table_edit.png" alt=""></a> <a href="#"><img src="images/icon/table_del.png" alt=""></a></td>
+              </tr>
+              <tr>
+                <td class="t_center"><input type="checkbox" id="c8" name="cc" /><label for="c8"><span></span></label></td>
+                <td>coop</td>
+                <td class="hidden-mobile"><a href="#">good@gmail.com</a></td>
+                <td class="hidden-mobile"><span class="s_green">Approved</span></td>
+                <td class="action-table"><a href="#"><img src="images/icon/table_view.png" alt=""></a> <a href="#"><img src="images/icon/table_edit.png" alt=""></a> <a href="#"><img src="images/icon/table_del.png" alt=""></a></td>
+              </tr>
+              <tr>
+                <td class="t_center"><input type="checkbox" id="c9" name="cc" /><label for="c9"><span></span></label></td>
+                <td>coop</td>
+                <td class="hidden-mobile"><a href="#">good@gmail.com</a></td>
+                <td class="hidden-mobile"><span class="s_green">Approved</span></td>
+                <td class="action-table"><a href="#"><img src="images/icon/table_view.png" alt=""></a> <a href="#"><img src="images/icon/table_edit.png" alt=""></a> <a href="#"><img src="images/icon/table_del.png" alt=""></a></td>
+              </tr>
+              <tr>
+                <td class="t_center"><input type="checkbox" id="c10" name="cc" /><label for="c10"><span></span></label></td>
+                <td>coop</td>
+                <td class="hidden-mobile"><a href="#">good@gmail.com</a></td>
+                <td class="hidden-mobile"><span class="s_green">Approved</span></td>
+                <td class="action-table"><a href="#"><img src="images/icon/table_view.png" alt=""></a> <a href="#"><img src="images/icon/table_edit.png" alt=""></a> <a href="#"><img src="images/icon/table_del.png" alt=""></a></td>
+              </tr>
+              <tr>
+                <td class="t_center"><input type="checkbox" id="c11" name="cc" /><label for="c11"><span></span></label></td>
+                <td>coop</td>
+                <td class="hidden-mobile"><a href="#">good@gmail.com</a></td>
+                <td class="hidden-mobile"><span class="s_green">Approved</span></td>
+                <td class="action-table"><a href="#"><img src="images/icon/table_view.png" alt=""></a> <a href="#"><img src="images/icon/table_edit.png" alt=""></a> <a href="#"><img src="images/icon/table_del.png" alt=""></a></td>
+              </tr>
+              <tr>
+                <td class="t_center"><input type="checkbox" id="c12" name="cc" /><label for="c12"><span></span></label></td>
+                <td>coop</td>
+                <td class="hidden-mobile"><a href="#">good@gmail.com</a></td>
+                <td class="hidden-mobile"><span class="s_green">Approved</span></td>
+                <td class="action-table"><a href="#"><img src="images/icon/table_view.png" alt=""></a> <a href="#"><img src="images/icon/table_edit.png" alt=""></a> <a href="#"><img src="images/icon/table_del.png" alt=""></a></td>
+              </tr>
+              <tr>
+                <td class="t_center"><input type="checkbox" id="c13" name="cc" /><label for="c13"><span></span></label></td>
+                <td>coop</td>
+                <td class="hidden-mobile"><a href="#">good@gmail.com</a></td>
+                <td class="hidden-mobile"><span class="s_green">Approved</span></td>
+                <td class="action-table"><a href="#"><img src="images/icon/table_view.png" alt=""></a> <a href="#"><img src="images/icon/table_edit.png" alt=""></a> <a href="#"><img src="images/icon/table_del.png" alt=""></a></td>
+              </tr>
+              <tr>
+                <td class="t_center"><input type="checkbox" id="c14" name="cc" /><label for="c14"><span></span></label></td>
+                <td>coop</td>
+                <td class="hidden-mobile"><a href="#">good@gmail.com</a></td>
+                <td class="hidden-mobile"><span class="s_green">Approved</span></td>
+                <td class="action-table"><a href="#"><img src="images/icon/table_view.png" alt=""></a> <a href="#"><img src="images/icon/table_edit.png" alt=""></a> <a href="#"><img src="images/icon/table_del.png" alt=""></a></td>
+              </tr>
+            </tbody>
+          </table>  
+
+                
+              <div class="clearfix"></div>
+              </div>
+              
+              </div>
+              <!--Example Table END-->
+
+
+
+            </div>
+               <div class="clearfix"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+               <!--BEGIN FOOTER-->
+               <div class="footer">
+                  <div class="left">Copyright &copy; 2013</div>
+                  <div class="right"><a href="#">Buy Template</a></div>
+                  <div class="clearfix"></div>
+               </div>
+               <!--BEGIN FOOTER END-->
+              
+          <div class="clearfix"></div> 
+          </div><!--end .block-->
+        </div>
+        <!--MAIN CONTENT END-->
+    
+    </div>
+    <!--/#wrapper-->
+
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+        <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+   
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/google-code-prettify/prettify.js"></script>
+   
+    <script src="js/jquery.flot.js"></script>
+    <script src="js/jquery.flot.pie.js"></script>
+    <script src="js/jquery.flot.orderBars.js"></script>
+    <script src="js/jquery.flot.resize.js"></script>
+    <script src="js/jquery.flot.categories.js"></script>
+    <script src="js/graphtable.js"></script>
+    <script src="js/fullcalendar.min.js"></script>
+    <script src="js/chosen.jquery.min.js"></script>
+    <script src="js/autoresize.jquery.min.js"></script>
+    <script src="js/jquery.autotab.js"></script>
+    <script src="js/jquery.jgrowl_minimized.js"></script>
+    <script src="js/jquery.dataTables.min.js"></script>
+    <script src="js/jquery.stepy.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/raphael.2.1.0.min.js"></script>
+    <script src="js/justgage.1.0.1.min.js"></script>
+	  <script src="js/glisse.js"></script>
+	  <script src="js/styleswitcher.js"></script>
+	  <script src="js/moderniz.js"></script>
+    <script src="js/jquery.sparkline.min.js"></script>
+    <script src="js/slidernav-min.js"></script>
+    <script type="text/javascript" src="js/jquery.fancybox.js?v=2.1.4"></script>
+    <script src="js/_app.js"></script>    
+
+	<script>
+    Modernizr.load([
+        {
+         load: [
+                'js/main.js'
+            ],
+            complete: function()
+            {
+                $.fn.ready(function()
+                {
+                    window.App.init();
+                });
+            }
+        }
+    ]);
+    </script>
+	<script src="js/application.js"></script>
+    
+    <!--settings infobox charts-->
+    <script src="js/float.settings.infobox.js"></script>
+
+
+  </body>
+</html>
+
