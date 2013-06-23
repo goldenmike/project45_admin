@@ -418,7 +418,7 @@ div.profile-box {
 #wrap {
 	z-index: 1; 
 	position: relative; 
-	left: 280px;
+	left: 0px;
 	min-height:100%;
 	background: #f1f1f1; 
 }
@@ -430,8 +430,8 @@ div.profile-box {
   position: absolute;
   overflow: hidden; 
   top: 0; 
-  left:-280px;
-  width: 280px; 
+  left:0px;
+  width: 70px; 
   height: 100%; 
   background: #f9f9f9 url(../images/bg_left_menu.png);
   color:#fff;
@@ -528,6 +528,13 @@ div.profile-box {
 }
 .main-menu li a:hover i.bonus, .main-menu li.active a i.bonus {
 	background-position:0px -32px;
+}
+
+#main{
+
+	margin-left:auto;
+	margin-right:auto;
+	max-width:1400px;
 }
 
 /* 4.b additional menu */
