@@ -1,0 +1,558 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"v",
+				"videosrc"
+			],
+			[
+				"post",
+				"postersrc"
+			],
+			[
+				"back",
+				"background-color"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/F/Dropbox/PrideOfConcept/Projects/PDF Viewer/Build/Admin/template/themeforest-4381722-night-sky-ultimate-responsive-bootstrap-admin/nightsky-admin-theme/template/tables.html",
+			"settings":
+			{
+				"buffer_size": 39698,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "config.html",
+			"settings":
+			{
+				"buffer_size": 16765,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/main.js",
+			"settings":
+			{
+				"buffer_size": 2393,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "ajx/_header.html",
+			"settings":
+			{
+				"buffer_size": 7082,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "ajx/_mainmenu.html",
+			"settings":
+			{
+				"buffer_size": 586,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "playlists.html",
+			"settings":
+			{
+				"buffer_size": 14493,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/_app.js",
+			"settings":
+			{
+				"buffer_size": 124,
+				"line_ending": "Windows",
+				"name": "console.log('hello');"
+			}
+		},
+		{
+			"file": "css/style.css",
+			"settings":
+			{
+				"buffer_size": 62078,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "bookmarks.html",
+			"settings":
+			{
+				"buffer_size": 32218,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"",
+				"Package Control: Remove Package"
+			],
+			[
+				"install p",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 512.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/F/Dropbox/PrideOfConcept/Projects/PDF Viewer/Build/Admin/project45_admin/js/application.js",
+		"/F/Dropbox/Work2011/AlexLakas/New-Portfolio-2013/index.html",
+		"/F/Dropbox/Work2011/AlexLakas/New-Portfolio-2013/js/custom.js",
+		"/F/Dropbox/PrideOfConcept/Projects/PDF Viewer/Build/Admin/project45_admin/js/main.js",
+		"/F/Dropbox/PrideOfConcept/Projects/PDF Viewer/Build/Admin/project45_admin/sftp-config.json",
+		"/C/Users/M/AppData/Roaming/Sublime Text 2/Packages/User/sftp_servers/bitcableSettings",
+		"/F/Dropbox/PrideOfConcept/Projects/PDF Viewer/Build/Admin/project45_admin/playlists.html",
+		"/F/Dropbox/PrideOfConcept/Projects/PDF Viewer/Build/Admin/project45_admin/index.html",
+		"/F/Dropbox/PrideOfConcept/Projects/PDF Viewer/Build/Admin/project45_admin/page-404.html",
+		"/F/Dropbox/PrideOfConcept/Experimentation/Learn_Python_thw/ex1.py",
+		"/C/Users/M/Desktop/messagescp",
+		"/F/Dropbox/Work2011/AlexLakas/darwin-3/mobile/css/mobile.css",
+		"/F/Dropbox/Work2011/AlexLakas/darwin-3/mobile/index.html",
+		"/F/Dropbox/Work2011/AlexLakas/darwin-3/js/contact.js",
+		"/F/Dropbox/Work2011/AlexLakas/darwin-3/mobile/js/custom.js",
+		"/F/Dropbox/Work2011/AlexLakas/darwin-3/js/custom.js",
+		"/F/Dropbox/Work2011/AlexLakas/darwin-3/index.html",
+		"/F/Dropbox/Work2011/AlexLakas/darwin-3/email.php",
+		"/F/Dropbox/Work2011/AlexLakas/darwin-3/mobile/email.php",
+		"/F/Dropbox/Work2011/AlexLakas/darwin-3/mobile/js/contact.js",
+		"/M/video-site/web/script/listing.html",
+		"/M/video-site/web/less/layout.less"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"F:\\Dropbox\\PrideOfConcept\\Projects\\PDF Viewer\\Build\\Admin\\project45_admin",
+			"M:\\video-site\\web"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"      \n",
+			"<td class=\"hidden-mobile\"><span class=\"s_orange\">Suspended</span></td>",
+			"Blocked",
+			"#</",
+			"<!--friends",
+			"Unfriend",
+			"checked=\"checked\"",
+			"checked=\"checked\" ",
+			"grid6",
+			"<title>Night Sky -",
+			"Night Sky",
+			"https",
+			"/css/kube.css",
+			"/css/kube.min.css",
+			"<img src=\"",
+			"slow",
+			"jpg",
+			"\" href",
+			"thumb.jpg",
+			"thumb",
+			"video_thumb",
+			"id=\"blocks\"",
+			"section",
+			"eo-th"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"<title>Project45 -",
+			"Project45",
+			"/css/kube.css"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 5,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/F/Dropbox/PrideOfConcept/Projects/PDF Viewer/Build/Admin/template/themeforest-4381722-night-sky-ultimate-responsive-bootstrap-admin/nightsky-admin-theme/template/tables.html",
+					"settings":
+					{
+						"buffer_size": 39698,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								14908,
+								25494
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 8109.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "config.html",
+					"settings":
+					{
+						"buffer_size": 16765,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								14984,
+								14984
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": true,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 188.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "js/main.js",
+					"settings":
+					{
+						"buffer_size": 2393,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								59,
+								59
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "ajx/_header.html",
+					"settings":
+					{
+						"buffer_size": 7082,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2724,
+								2724
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": true,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "ajx/_mainmenu.html",
+					"settings":
+					{
+						"buffer_size": 586,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								424,
+								424
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": true,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "playlists.html",
+					"settings":
+					{
+						"buffer_size": 14493,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2368,
+								2368
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": true,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 953.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "js/_app.js",
+					"settings":
+					{
+						"buffer_size": 124,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								124,
+								124
+							]
+						],
+						"settings":
+						{
+							"auto_name": "console.log('hello');",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "css/style.css",
+					"settings":
+					{
+						"buffer_size": 62078,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								19733,
+								19733
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": true,
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 12725.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "bookmarks.html",
+					"settings":
+					{
+						"buffer_size": 32218,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								19097,
+								19097
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": true,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 7868.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.sftp":
+	{
+		"height": 112.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 168.0,
+	"status_bar_visible": true
+}
